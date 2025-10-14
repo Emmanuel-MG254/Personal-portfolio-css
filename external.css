@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+    margin: 10px;
+    background-color:olivedrab;
+    font-size: 16pt;
+}
+header{
+
+    text-align: center;
+    background-color: aqua;
+    padding: 30px ;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav ul li:hover{
+    background-color: lightgray;
+     border-radius: 5px;
+}
+main{
+    padding:20px;
+}
+#profile{
+    width:150px;
+    height: 150px;
+    border-radius:80%;
+}
+#about{
+    background-color: olivedrab;
+    padding:20px;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(0, 128, 2);
+    margin-bottom: 20px;
+}
+#projects{
+     background-color: olivedrab;
+    padding:20px;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 5px  5px 10px rgb(0, 128, 2);
+    margin-bottom: 20px;
+}
+#project-container{
+    display: flex;
+    gap:20px;
+
+}
+.projo{
+    background-color: olivedrab;
+    padding:15px;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 0 0 5px navajowhite;
+    text-align: center;
+    flex:200px;
+
+}
+h1{
+    color:blue;
+}
+h2{
+    color:blue;
+}
+#contact{
+     background-color: olivedrab;
+    padding:20px;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 5px  5px 10px rgb(0, 128, 2);
+    margin-bottom: 20px;
+}
+#contact h1{
+    color:blue;
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin:0 auto;
+    gap:15px;
+}
+.contact-form label{
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.contact-form button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background-color: red;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    padding:15px;
+    margin-top:20px;
+
+}
